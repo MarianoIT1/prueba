@@ -9,7 +9,7 @@ function Card({id, name, image, temperament = [], weight}) {
 
     return(
         <div className='card'>
-            <img className='imagecard' src={image} alt={name}/>
+            <img className='imagecard'/>
             <Link className='name' to={`dog/${id}`}><h1>{name}</h1></Link>
             <p>
                 Peso: <span> {weight} Kg</span>
