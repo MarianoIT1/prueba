@@ -19,6 +19,7 @@ module.exports = getApiDogs = async (name = null) => {
             .then(data => {
                 if(!data.length) return data;
                 return  data.map(e => {
+                    //nueva linea
                     if(e.reference_image_id){
                         return {
                             id: e.id,
@@ -34,6 +35,7 @@ module.exports = getApiDogs = async (name = null) => {
                         return {
                             id: e.id,
                             name: e.name,
+                            //nueva linea 2
                             height: e.height.metric.replace('NaN', 'Sin especificar'),
                             weight: e.weight.metric.replace('NaN', 'Sin especificar'),
                             life_span: e.life_span.replace('year', 'años'),

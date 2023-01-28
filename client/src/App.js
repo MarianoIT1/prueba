@@ -1,5 +1,6 @@
 import { Route } from 'react-router-dom';
 import Landing from './components/Landing/Landing'
+
 import Home from './components/Home/Home' //hsisdjnckmldklm
 
 import DogDetail from './components/DogDetail/DogDetail';
@@ -10,15 +11,12 @@ function App() {
     const example = '1234567'
   }
   return (
-    <>
+    <div>
       <Route exact path='/' component={Landing}/>
-      <Route path='/prueba' component={prueba}/>
+      {/* comentario de mariano */}
       <Route path='/home' render={() => <Home/>}/>
-
-      <Route path='/create/breed' render={() => <BreedForm/>}/>
-
-      <Route path='/dog/:id' render={() => <DogDetail/>}/>
-    </>
+      <Route path='/dog/:id' render={() => <ComponenteCambiadoPorMariano/>}/>
+    </div>
   );
 }
 
