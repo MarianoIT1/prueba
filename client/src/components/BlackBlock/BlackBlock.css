@@ -1,0 +1,29 @@
+.divblack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: black;
+    border-top: solid 2px aliceblue;
+}
+
+.blackspan {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.divimageblock {
+    background-color: rgb(6, 176, 165);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: max-content;
+    border-radius: 90px;
+    border: solid 2px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+}

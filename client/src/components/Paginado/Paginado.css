@@ -1,0 +1,108 @@
+.divpages {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    width: max-content;
+    height: 35px;
+    border: solid 2px white;
+    box-shadow: 2px 2px white;
+}
+
+.currentbutton {
+    color: aliceblue;
+    background-color: rgb(6, 176, 165);
+    border: solid 1px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+    border-radius: 6px;
+}
+
+@media (min-width: 1400px) {
+    .currentbutton {
+        width: 2rem;
+        height: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+.prevbutton {
+    background-color: aliceblue;
+    color: rgb(6, 176, 165);
+    height: 20px;
+    width: auto;
+    border: solid 1px rgb(6, 176, 165);
+    box-shadow: 2px 2px rgb(6, 176, 165);
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+@media (min-width: 1400px) {
+    .prevbutton {
+        width: 4.2rem;
+        height: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+.prevbutton:hover {
+    color: aliceblue;
+    background-color: rgb(6, 176, 165);
+    border: solid 1px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+    font-weight: bold;
+}
+
+.nextbutton {
+    background-color: aliceblue;
+    color: rgb(6, 176, 165);
+    height: 20px;
+    width: auto;
+    border: solid 1px rgb(6, 176, 165);
+    box-shadow: 2px 2px rgb(6, 176, 165);
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+@media (min-width: 1400px) {
+    .nextbutton {
+        width: 4.5rem;
+        height: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+.nextbutton:hover {
+    color: aliceblue;
+    background-color: rgb(6, 176, 165);
+    border: solid 1px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+    font-weight: bold;
+}
+
+.buttonpage {
+    background-color: aliceblue;
+    color: rgb(6, 176, 165);
+    height: 20px;
+    width: auto;
+    border: solid 1px rgb(6, 176, 165);
+    box-shadow: 2px 2px rgb(6, 176, 165);
+    border-radius: 6px;
+}
+
+@media (min-width: 1400px) {
+    .buttonpage {
+        width: 2rem;
+        height: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+.buttonpage:hover {
+    color: aliceblue;
+    background-color: rgb(6, 176, 165);
+    border: solid 1px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+    font-weight: bold;
+}

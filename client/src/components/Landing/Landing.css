@@ -1,0 +1,71 @@
+.contlanding {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  height: 35%;
+  width: 50%;
+}
+
+.divland {
+  background-color: rgb(6, 176, 165);
+  width: 18em;
+  height: 8.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 90px;
+  border: solid 2px aliceblue;
+  box-shadow: 4px 4px aliceblue;
+}
+
+.imagelogolanding {
+  margin-left: 5%;
+  height: 90%;
+  width: 45%;
+}
+
+.henrylanding {
+  margin-left: 5%;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 250%;
+}
+
+.image {
+  position: relative;
+  background-image: url('../../images/pexels-pixabay-247522.jpg');
+  background-size: cover; 
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.enterbutton {
+  color: rgb(6, 176, 165);
+  padding: 0.6em 1.3em;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: aliceblue;
+  border: 2px solid rgb(6, 176, 165);
+  box-shadow: 4px 4px rgb(6, 176, 165);
+  transition: all .3s;
+}
+
+.enterbutton:hover {
+  border: 2px solid aliceblue;
+  background-color: rgb(6, 176, 165);
+  color: aliceblue;
+  box-shadow: 4px 4px aliceblue;
+}
+
+.enterbutton:active {
+  box-shadow: 4px 4px 12px rgb(6, 176, 165),
+      -4px -4px 12px rgb(6, 176, 165);
+}

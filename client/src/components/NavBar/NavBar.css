@@ -1,0 +1,53 @@
+.divimage {
+    background-color: rgb(6, 176, 165);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: max-content;
+    border-radius: 90px;
+    border: solid 2px aliceblue;
+    box-shadow: 2px 2px aliceblue;
+}
+
+.imagelogo {
+    margin-left: 4%;
+    height: 90%;
+    width: 90px;
+}
+
+.henry {
+    color: aliceblue;
+    margin-left: 4%;
+    margin-right: -30px;
+    font-size: x-large;
+    font-weight: bold;
+    height: min-content;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: solid 2px aliceblue;
+}
+
+.linklogo{
+    text-decoration: none;
+}
+
+.navtext {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 30px;
+
+}
+
+.navtext:hover {
+    color: rgb(6, 176, 165);
+    font-weight: bold;
+}
