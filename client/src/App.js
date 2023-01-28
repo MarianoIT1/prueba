@@ -1,18 +1,19 @@
 import { Route } from 'react-router-dom';
 import Landing from './components/Landing/Landing'
-import Home from './components/Home/Home'
+import Casita from './components/Home/Home'
 import DogDetail from './components/DogDetail/DogDetail';
 import BreedForm from './components/BreedForm/BreedForm';
 
 function App() {
   return (
-    <>
+    <div>
       <Route exact path='/' component={Landing}/>
+      {/* comentario de mariano */}
       <Route path='/home' render={() => <Home/>}/>
-      <Route path='/create/breed' render={() => <BreedForm/>}/>
-      <Route path='/dog/:id' render={() => <DogDetail/>}/>
-    </>
+
+      <Route path='/dog/:id' render={() => <ComponenteCambiadoPorMariano/>}/>
+    </div>
   );
 }
 
-export default App;
+asdasd default App;
